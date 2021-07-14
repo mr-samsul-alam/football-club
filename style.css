@@ -27,8 +27,12 @@ body {
   width: 168px;
   height: 44px;
   margin-left: 156px;
-  background-color: #e02c6d;
+  background-image: linear-gradient(#e02c6d, skyblue);
+  /* background-color: #e02c6d; */
   padding: 10px 24px 10px 24px;
+}
+.watchlive-bottom:hover {
+  background-image: linear-gradient(skyblue, #e02c6d);
 }
 
 .home-img {
@@ -95,6 +99,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.copyright p {
+  font-size: 18px;
 }
 
 /* mobile device  */
