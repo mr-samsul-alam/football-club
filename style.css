@@ -9,13 +9,15 @@ body {
 }
 .homes-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
+ }
 .home-text {
+  width: 50%;
+  line-height: 80px;
   font-size: 64px;
+  margin-left: 167px;
+  margin-right: 95px;
   color: white;
-  margin-left: 156px;
 }
 .watchlive-bottom {
   text-decoration: none;
@@ -28,9 +30,14 @@ body {
 }
 
 .home-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-left: 5%;
   margin-right: 141px;
-  margin-top: 121px;
-  margin-bottom: 80px;
+  margin-bottom: 86px;
+  margin-top: 153px;
 }
 .home-img img {
   width: 557px;
@@ -50,6 +57,7 @@ body {
 .player {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 330px;
   height: 474px;
   padding: 15px;
@@ -58,4 +66,15 @@ body {
 .player img {
   width: 300px;
   height: 256px;
+}
+/* mobile device  */
+@media only screen and (max-width: 688px) {
+  .home-page {
+    width: 100%;
+  }
+  .players {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
