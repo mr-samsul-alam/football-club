@@ -184,10 +184,13 @@ h2 {
 @media only screen and (max-width: 480px) {
   /* header stytle start  */
   .home-page {
-    overflow: hidden;
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .home-text{
+    margin: 0px;
+    padding: 0px;
   }
   .home-container {
     margin: 0px;
@@ -196,7 +199,7 @@ h2 {
   .home-container h1 {
     font-size: 36px;
     line-height: 1.45;
-    margin: 80px 0px 30px 0px;
+    margin: 60px 0px 30px 0px;
     padding: 0px;
   }
   .watchlive-bottom {
